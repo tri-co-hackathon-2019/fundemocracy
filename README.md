@@ -1,19 +1,24 @@
 # :zap: :computer: :zap: Tri-Co Hackathon 2019 :zap: :computer: :zap:
 
-*This is a sample submission repository for Tri-Co Hackathon 2019. You can [fork this repo](https://help.github.com/articles/fork-a-repo/) and use this as a starting point.*
-
 ## Team Name
 
-*Your name here!*
+Worth K
 
 ## Team Members
 
-- Teammate 1, School
-- Teammate 2, School
-- Teammate 3, School
+- Cassandra Stone '20, Swarthmore College
+- Calla Bush St George '20, Swarthmore College
 
 ## Project Description
 
+Political campaigns today face three majors challenges:
+- raising small dollar donations
+- fundraising beyond their immediate constituency (especially local campaigns)
+- meeting FEC regulations for donation collection
+
+On the flipside, while the everyday person may not be willing to max out a donation to a political candidate, many are interested in making small-dollar donation to candidates who they believe are going to affect change, even if beyond their own district.
+
+We've created an iOS app that allows users to create profile containing all FEC-necessary donor information. They are prompted to rank Congress
 *A clear statement of the challenges/issues/problems/gaps your project engages as well as a brief, high-level description of how your project engage the areas you've identified. What is the value of your approach? Who are the intended users?*
 
 ## Protoype Summary
