@@ -18,24 +18,32 @@ Political campaigns today face three majors challenges:
 
 On the flipside, while the everyday person may not be willing to max out a donation to a political candidate, many are interested in making small-dollar donation to candidates who they believe are going to affect change, even if beyond their own district.
 
-We've created an iOS app that allows users to create profile containing all FEC-necessary donor information. They are prompted to rank Congress
-*A clear statement of the challenges/issues/problems/gaps your project engages as well as a brief, high-level description of how your project engage the areas you've identified. What is the value of your approach? Who are the intended users?*
+We've created an iOS app that allows users to create profile containing all FEC-necessary donor information. They are prompted to rank Congressional policy categories based on their preference. Each day, the app recommends a different candidate from anywhere in the country that has policy preferences most in line with the users' to make a $5 donation towards.
+
+Users must be 18 or older, as per FEC-donation policies. Our target audience is anyone who is interested in politics and expanding their knowledge of candidates accross the US, from city council to Congress. 
+
+Our second target audience is candidates running for office at any level. They are incentivized to promote the app because it increases their chances that people outside their constituency reach may be interested in donating to their campaign. In addition, because we meet FEC donor information policies, they do not have to worry about finance violations. Our database can easily export both user and candidate donation history.
 
 ## Protoype Summary
 
-*Describe the basic functionality of your prototype. What are the features you were able to implement? What features would you like to implement?*
+Our prototype app has been built using Xcode, with Swift as our main language.  Our prototype utilizes [Realm](realm.io), an open source dependency, to create and manage our database. So far, our database is capable of maintaining information about Candidate, Donor, and Contribution objects.
+We compiled a test collection of Candidates and their policy preferences (by way of random unique number generators). We developed an algorithm that calculates similarities between user and candidate policy preferences, and a page that pulls the candidate with the highest similarity. Once it is a new day (determined by the device's internal clock), the candidate is popped from the stack and the one with the next highest similarity is featured.
 
 ## Live URLs
 
-*List any URLs relevant to demonstrating your prototype*
+n/a
 
 ## Presentation
 
-*List any links to your presentation or any related visuals you want to share.*
+Google Slides: https://docs.google.com/presentation/d/14oKEmTjnRdPO9ZI1ITpRJRbIxHfBEMALAdZ7V5mmOrg/edit?usp=sharing
+
+(see demo video in repo)
 
 ## Next Steps
 
-*What do you need to do next to turn this prototype into a working solution?*
+With the time constraint, we were not able to build the payment information collection, as there are security protocols that will need to be implement. There are handy developer tools to use TouchID or FaceID for payment verification, so we may move in that direction in the future.
+We also need a proper database of candidates and their policy preferences. We mannually created one looking at three races today, but in the future, we may look into scraping the data from Ballotpedia or another site.
+In addition, we were not able to fully test the "Today's Candidate" page, because we did not have time to simulate a new date (the simulation would need to think it is tomorrow for the page to present something new).
 
 ## License
 
