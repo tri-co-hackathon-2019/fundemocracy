@@ -35,8 +35,9 @@ n/a
 
 ## Presentation
 
-Google Slides: 
-(see video in repo)
+Google Slides: https://docs.google.com/presentation/d/14oKEmTjnRdPO9ZI1ITpRJRbIxHfBEMALAdZ7V5mmOrg/edit?usp=sharing
+
+(see demo video in repo)
 
 ## Next Steps
 
