@@ -18,12 +18,15 @@ Political campaigns today face three majors challenges:
 
 On the flipside, while the everyday person may not be willing to max out a donation to a political candidate, many are interested in making small-dollar donation to candidates who they believe are going to affect change, even if beyond their own district.
 
-We've created an iOS app that allows users to create profile containing all FEC-necessary donor information. They are prompted to rank Congress
-*A clear statement of the challenges/issues/problems/gaps your project engages as well as a brief, high-level description of how your project engage the areas you've identified. What is the value of your approach? Who are the intended users?*
+We've created an iOS app that allows users to create profile containing all FEC-necessary donor information. They are prompted to rank Congressional policy categories based on their preference. Each day, the app recommends a different candidate from anywhere in the country that has policy preferences most in line with the users' to make a $5 donation towards.
+
+Users must be 18 or older, as per FEC-donation policies. Our target audience is anyone who is interested in politics and expanding their knowledge of candidates accross the US, from city council to Congress. 
+
+Our second target audience is candidates running for office at any level. They are incentivized to promote the app because it increases their chances that people outside their constituency reach may be interested in donating to their campaign. In addition, because we meet FEC donor information policies, they do not have to worry about finance violations. Our database can easily export both user and candidate donation history.
 
 ## Protoype Summary
 
-*Describe the basic functionality of your prototype. What are the features you were able to implement? What features would you like to implement?*
+Our prototype app has been built using Xcode, with Swift is our Our prototype utilizes [Realm](realm.io).
 
 ## Live URLs
 
