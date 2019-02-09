@@ -26,19 +26,23 @@ Our second target audience is candidates running for office at any level. They a
 
 ## Protoype Summary
 
-Our prototype app has been built using Xcode, with Swift is our Our prototype utilizes [Realm](realm.io).
+Our prototype app has been built using Xcode, with Swift as our main language.  Our prototype utilizes [Realm](realm.io), an open source dependency, to create and manage our database. So far, our database is capable of maintaining information about Candidate, Donor, and Contribution objects.
+We compiled a test collection of Candidates and their policy preferences (by way of random unique number generators). We developed an algorithm that calculates similarities between user and candidate policy preferences, and a page that pulls the candidate with the highest similarity. Once it is a new day (determined by the device's internal clock), the candidate is popped from the stack and the one with the next highest similarity is featured.
 
 ## Live URLs
 
-*List any URLs relevant to demonstrating your prototype*
+n/a
 
 ## Presentation
 
-*List any links to your presentation or any related visuals you want to share.*
+Google Slides: 
+(see video in repo)
 
 ## Next Steps
 
-*What do you need to do next to turn this prototype into a working solution?*
+With the time constraint, we were not able to build the payment information collection, as there are security protocols that will need to be implement. There are handy developer tools to use TouchID or FaceID for payment verification, so we may move in that direction in the future.
+We also need a proper database of candidates and their policy preferences. We mannually created one looking at three races today, but in the future, we may look into scraping the data from Ballotpedia or another site.
+In addition, we were not able to fully test the "Today's Candidate" page, because we did not have time to simulate a new date (the simulation would need to think it is tomorrow for the page to present something new).
 
 ## License
 
