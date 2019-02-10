@@ -6,8 +6,8 @@ Worth K
 
 ## Team Members
 
-- Cassandra Stone '20, Swarthmore College
-- Calla Bush St George '20, Swarthmore College
+- Cassandra Stone '20, Swarthmore College (Computer Science, Philosophy)
+- Calla Bush St George '20, Swarthmore College (Biology - first time hacker!)
 
 ## Project Description
 
